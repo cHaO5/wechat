@@ -96,7 +96,7 @@
 		6670D13B227A7F8F00892E13 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		6670D13C227A7F8F00892E13 /* Expression.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expression.plist; sourceTree = "<group>"; };
 		6670D13D227A7F8F00892E13 /* country_code.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = country_code.txt; sourceTree = "<group>"; };
-		6670D13E227A7F8F00892E13 /* wechat.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = wechat.playground; sourceTree = "<group>"; };
+		6670D13E227A7F8F00892E13 /* wechat.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = wechat.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		6670D13F227A7F9000892E13 /* Expression.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Expression.bundle; sourceTree = "<group>"; };
 		6670D141227A7F9000892E13 /* chat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chat.json; sourceTree = "<group>"; };
 		6670D142227A7F9000892E13 /* moments.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = moments.json; sourceTree = "<group>"; };

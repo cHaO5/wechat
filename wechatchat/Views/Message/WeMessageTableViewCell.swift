@@ -34,10 +34,11 @@ fileprivate func > <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
 
 class WeMessageTableViewCell: UITableViewCell {
     @IBOutlet weak var avatarImageView: UIImageView!
-    @IBOutlet weak var unreadNumberLabel: UILabel!
-    @IBOutlet weak var dateLabel: UILabel!
-    @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var lastMessageLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var unreadNumberLabel: UILabel!
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()
