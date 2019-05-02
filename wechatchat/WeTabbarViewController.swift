@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-//import TimedSilver
+import TimedSilver
 
 class WeTabbarViewController: UITabBarController {
     
@@ -18,27 +18,28 @@ class WeTabbarViewController: UITabBarController {
     }
     
     func setupViewController() {
-        let titleArray = ["微信", "通讯录", "发现", "我"]
+//        let titleArray = ["微信", "通讯录", "发现", "我"]
+        let titleArray = ["微信"]
         
         let normalImagesArray = [
-            TSAsset.Tabbar_mainframe.image,
-            TSAsset.Tabbar_contacts.image,
-            TSAsset.Tabbar_discover.image,
-            TSAsset.Tabbar_me.image,
+            WeAsset.Tabbar_mainframe.image,
+//            WeAsset.Tabbar_contacts.image,
+//            WeAsset.Tabbar_discover.image,
+//            WeAsset.Tabbar_me.image,
         ]
         
         let selectedImagesArray = [
-            TSAsset.Tabbar_mainframeHL.image,
-            TSAsset.Tabbar_contactsHL.image,
-            TSAsset.Tabbar_discoverHL.image,
-            TSAsset.Tabbar_meHL.image,
+            WeAsset.Tabbar_mainframeHL.image,
+//            WeAsset.Tabbar_contactsHL.image,
+//            WeAsset.Tabbar_discoverHL.image,
+//            WeAsset.Tabbar_meHL.image,
         ]
         
         let viewControllerArray = [
-            TSMessageViewController.ts_initFromNib(),  //消息
-            TSContactsViewController.ts_initFromNib(), //联系人
-            TSDiscoverViewController.ts_initFromNib(), //发现
-            TSMeViewController.ts_initFromNib()   //我
+            WeMessageViewController.ts_initFromNib(),  //消息
+//            WeContactsViewController.ts_initFromNib(), //联系人
+//            WeDiscoverViewController.ts_initFromNib(), //发现
+//            WeMeViewController.ts_initFromNib()   //我
         ]
         
         let navigationVCArray = NSMutableArray()
